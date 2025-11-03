@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rin Wood Plast — Контакти</title>
+  <script>
+    function openApp(url, fallback) {
+      const iframe = document.createElement('iframe');
+      iframe.style.display = 'none';
+      iframe.src = url;
+      document.body.appendChild(iframe);
+      setTimeout(() => { window.location.href = fallback; }, 1200);
+    }
+  </script>
+</head>
+<body style="font-family: sans-serif; text-align: center; padding: 30px;">
+  <h2>Відкрити застосунок</h2>
+  <button onclick="openApp('tg://resolve?domain=rinwoodplast', 'https://t.me/rinwoodplast')">Відкрити Telegram</button>
+  <br><br>
+  <button onclick="openApp('tg://resolve?domain=rinwoodplast_bot', 'https://t.me/rinwoodplast_bot?start=ZGw6MjkwNzEw')">Відкрити чат-бот Telegram</button>
+  <br><br>
+  <button onclick="openApp('viber://chat?number=%2B380676037100', 'https://msng.link/o/?+380676037100=vi')">Відкрити Viber</button>
+  <br><br>
+  <button onclick="openApp('https://wa.me/380676037100', 'https://wa.me/380676037100')">Відкрити WhatsApp</button>
+  <br><br>
+  <button onclick="openApp('tel:+380676037100', 'tel:+380676037100')">Зателефонувати</button>
+  <br><br>
+  <button onclick="window.location.href='https://www.facebook.com/rinwoodplast'">Facebook</button>
+  <br><br>
+  <button onclick="window.location.href='https://www.instagram.com/rin_wood_plast'">Instagram</button>
+  <br><br>
+  <button onclick="window.location.href='https://www.tiktok.com/@rin.wood.plast'">TikTok</button>
+  <br><br>
+  <button onclick="window.location.href='https://maps.app.goo.gl/HGYr2zSHC6wkAqTw9'">Google Карта</button>
+</body>
+</html>
